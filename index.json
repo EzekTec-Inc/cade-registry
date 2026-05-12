@@ -1,4 +1,29 @@
 {
   "version": "1.0",
-  "plugins": []
+  "plugins": [
+    {
+      "id": "@EzekTec/rust-dev-pack",
+      "version": "1.0.0",
+      "description": "A comprehensive pack for Rust development. Includes strict-project-execution, rust, and tdd-guide skills, plus a rust-worker subagent.",
+      "author": "EzekTec-Inc",
+      "tags": ["rust", "development", "subagent", "skills"],
+      "url": "https://github.com/EzekTec-Inc/cade-registry/releases/download/v1.0.0/rust-dev-pack.tar.gz"
+    },
+    {
+      "id": "@EzekTec/security-toolkit",
+      "version": "1.0.0",
+      "description": "Tools and skills for performing deep security reviews and codebase auditing.",
+      "author": "EzekTec-Inc",
+      "tags": ["security", "audit", "reviewer"],
+      "url": "https://github.com/EzekTec-Inc/cade-registry/releases/download/v1.0.0/security-toolkit.tar.gz"
+    },
+    {
+      "id": "@EzekTec/web-researcher",
+      "version": "1.0.0",
+      "description": "A subagent pack for performing autonomous deep web research and information gathering.",
+      "author": "EzekTec-Inc",
+      "tags": ["web", "research", "subagent"],
+      "url": "https://github.com/EzekTec-Inc/cade-registry/releases/download/v1.0.0/web-researcher.tar.gz"
+    }
+  ]
 }
